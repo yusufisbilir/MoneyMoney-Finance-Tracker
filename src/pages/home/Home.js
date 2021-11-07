@@ -13,6 +13,7 @@ function Home() {
     "uid",
     "==",
     user.uid,
+    ["createdAt", "desc"],
   ]);
   return (
     <div className={styles.container}>
